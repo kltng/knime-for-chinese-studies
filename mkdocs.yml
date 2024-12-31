@@ -1,0 +1,39 @@
+site_name: KNIME for Chinese Studies
+theme:
+  name: material
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: yellow
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: yellow
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: "en"
+          default: true
+          name: "English"
+        - locale: "zh"
+          name: "中文"
+
+
+extra:
+  alternate:  
+    - name: "English"
+      link: "/"
+      lang: "en"
+    - name: "中文"
+      link: "/zh/"
+      lang: "zh"
