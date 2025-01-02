@@ -25,7 +25,7 @@ plugins:
         - locale: "en"
           default: true
           name: "English"
-        - locale: "zh"
+        - locale: "zh-TW"
           name: "中文"
 
 
@@ -35,5 +35,5 @@ extra:
       link: "/"
       lang: "en"
     - name: "中文"
-      link: "/zh/"
-      lang: "zh"
+      link: "/zh-TW/"
+      lang: "zh-TW"
