@@ -1,0 +1,38 @@
+# Quarto outputs
+/_site/
+/.quarto/
+*_cache/
+*_files/
+*.html
+*.pdf
+
+# System files
+.DS_Store
+.Thumbs.db
+
+# R/RStudio files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Node/JavaScript (if using Quarto extensions)
+node_modules/
+package-lock.json
+
+# Other common files to ignore
+*.log
+*.swp
+*~
+.env
