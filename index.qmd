@@ -1,7 +1,82 @@
 ---
-title: "KNIME for Chinese Studies"
 ---
 
-This is a Quarto website.
+:::{.content-visible when-profile="english"}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# KNIME for Chinese Studies
+
+This is a collection of use cases for using KNIME in doing research in Chinese Studies. The documentation is in English and Chinese. This is the deliverable for the 2022 KNIME Teaching Award I received from KNIME AG. I greatly appreciate the support from KNIME AG, especially Aline Bessa, for her patience and support. 
+
+## How to use this site
+
+This site provides a collection of use cases for using KNIME in doing research in Chinese Studies. It would not cover every aspect of KNIME, as it is a very broad topic. Here are some useful resources for getting started:
+
+- The complete documentation for KNIME: [https://docs.knime.com](https://docs.knime.com).
+- KNIMETV: [https://www.youtube.com/@KNIMETV](https://www.youtube.com/@KNIMETV)
+- LinkedIn Learning: Low Code/No-Code Data Literacy with KNIME: From Basic to Advanced
+
+Once you are familiar with the basics of KNIME, you can get started with the use cases in this site.
+
+## How to install KNIME on MacOS
+
+1. Go to the KNIME download page. Navigate to the KNIME website's [download page](https://www.knime.com/downloads).
+2. Select the macOS download option. On the download page, find and click the installation option for macOS. KNIME supports macOS versions 12 (Monterey)and above, for both x86_64 Intel and M1 (arm64 - Apple silicon). Note that only the last two major versions are supported.
+3. Accept the terms and conditions. Read and agree to the privacy policy and terms and conditions, then click "Download".
+4. Locate the downloaded file. Once the download is complete, find the downloaded .dmg file.
+5. Open the .dmg file. Double click the downloaded .dmg file and wait for the verification process to finish.
+6. Move the KNIME icon to Applications. Drag the KNIME icon to your Applications folder.
+7. Launch KNIME. Double-click the KNIME icon in the Applications folder to start KNIME Analytics Platform.
+
+## How to install KNIME on Windows
+
+1. Go to the [download page](https://www.knime.com/downloads) on the KNIME website.
+2. On the download page, find the "Download KNIME" tab.
+3. Select the installation option that fits your operating system (Windows). You can choose between the Windows installer, the self-extracting archive, or the zip archive.
+    - The Windows installer will extract the installation folder, add an icon to your desktop, and suggest suitable memory settings.
+    - The self-extracting archive will create a folder containing the KNIME installation files without needing any special software.
+    - The zip archive will allow you to download, save, and extract the files to a location of your choice.
+4. Read and accept the privacy policy and terms and conditions, and then click "Download".
+5. Once the download is complete, proceed with the installation:
+    - If you downloaded the installer or self-extracting archive, run the downloaded file.
+    - If you downloaded the zip archive, unpack it to a location of your choice. Then, run knime.exe to start KNIME Analytics Platform.
+6. KNIME Analytics Platform will launch. You may be asked if you want to share your usage statistics with KNIME. No personal information will be shared, and the statistics will be used to improve the Workflow Coach.
+7. The "Workspace Launcher" window will appear, where you need to specify the path for your workspace. The workspace is a folder where all your preferences and workflows will be saved. The default workspace folder is ..\knime-workspace, but you can change it.
+:::
+
+:::{.content-visible when-profile="chinese"}
+
+# KNIME 與中國研究
+
+這是一個使用 KNIME 進行中國研究的應用案例集。文檔提供英文和中文版本。這是我獲得 KNIME AG 頒發的 2022 年 KNIME 教學獎所完成的成果。我非常感謝 KNIME AG 的支持，特別是 Aline Bessa 的耐心與幫助。
+
+## 如何使用本網站
+
+本網站提供了一系列使用 KNIME 進行中文研究的應用案例。由於 KNIME 涵蓋的內容非常廣泛，因此無法涵蓋其所有方面。以下是一些入門的實用資源：
+
+   - KNIME 完整文檔：[https://docs.knime.com](https://docs.knime.com){target="_blank"}
+   - KNIMETV：[https://www.youtube.com/@KNIMETV](https://www.youtube.com/@KNIMETV){target="_blank"}
+   - LinkedIn Learning：使用 KNIME 的低代碼/無代碼數據啓蒙：從基礎到高階
+
+當你熟悉了 KNIME 的基礎知識後，可以開始探索本網站中的應用案例。
+
+## 如何在 MacOS 上安裝 KNIME
+
+
+## 如何在 Windows 上安裝 KNIME
+
+在 Windows 電腦上安裝 KNIME Analytics Platform，請按照以下步驟操作：
+
+1. 前往 KNIME 網站的下載頁面。
+2. 在下載頁面上，找到「Download KNIME」 (下載 KNIME) 的標籤。
+3. 選擇符合您作業系統 (Windows) 的安裝選項。您可以在 Windows 安裝程式、自我解壓縮封存檔或 zip 壓縮檔之間選擇。
+    - Windows 安裝程式 會解壓縮安裝資料夾、在您的桌面上新增圖示，並建議合適的記憶體設定。
+    - 自我解壓縮封存檔 會建立一個包含 KNIME 安裝檔案的資料夾，而無需任何特殊軟體。
+    - zip 壓縮檔 可讓您下載、儲存檔案並將其解壓縮到您選擇的位置。
+4. 閱讀並接受隱私權政策和條款與條件，然後按一下「Download」(下載)。
+5. 下載完成後，請繼續安裝：
+    - 如果您下載的是安裝程式或自我解壓縮封存檔，請執行下載的檔案。
+    -如果您下載的是 zip 壓縮檔，請將其解壓縮到您選擇的位置。然後，執行 knime.exe 以啟動 KNIME Analytics Platform。
+6. KNIME Analytics Platform 將會啟動。系統可能會詢問您是否要與 KNIME 分享您的使用統計資料。不會分享任何個人資訊，這些統計資料將用於改善 Workflow Coach。
+7.「Workspace Launcher」(工作區啟動器) 視窗將會出現，您需要在其中指定工作區的路徑。工作區是儲存您所有偏好設定和工作流程的資料夾。預設的工作區資料夾是 ..\knime-workspace，但您可以變更它。
+
+:::

@@ -1,0 +1,29 @@
+project:
+  title: "KNIME與中國研究"
+  output-dir: ./_site/zh
+
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: 首頁
+      - href: about.qmd
+        text: 關於本網站
+    right: 
+      - href: ../zh
+        text: 中文
+      - href: ../en
+        text: English
+
+lang: en
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
