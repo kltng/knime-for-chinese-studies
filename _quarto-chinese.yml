@@ -10,9 +10,9 @@ website:
       - href: about.qmd
         text: 關於本網站
     right: 
-      - href: ../zh
+      - href: ./zh
         text: 中文
-      - href: ../en
+      - href: ./en
         text: English
 
 lang: en

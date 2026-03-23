@@ -1,4 +1,5 @@
 # Quarto outputs
+/_site/
 /.quarto/
 *_cache/
 *_files/
